@@ -60,12 +60,12 @@ const LoginPage: React.FC = () => {
     }
   };
 
-  const logoutTime = (delay: number) => {
-    setTimeout(() => {
-      cookie.remove("token");
-      window.location.replace("/login"); 
-    }, delay);
-  };
+  // const logoutTime = (delay: number) => {
+  //   setTimeout(() => {
+  //     cookie.remove("token");
+  //     window.location.replace("/login"); 
+  //   }, delay);
+  // };
   
 
   return (
